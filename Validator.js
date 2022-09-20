@@ -205,8 +205,7 @@ const validateNumericWithSpecialChar=(validationObj)=> {
          }
          break;
          
-         default:
-         printDebugLogForDevelopmentBuild("default case" + validationType);
+    
      }
      return message;
  }
